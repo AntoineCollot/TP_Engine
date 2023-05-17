@@ -39,7 +39,7 @@ Ne pas changer le layer des éléments car ils sont utiles pour l'affichage.
 5. Chercher un moyen de transformer le lerp (linéaire) en un courbe smoothée. Le nom technique est ease-in/out.
 
 ## 4 - UI
-*Les scripts déjà existants dans le projet ne doivent pas être modifiés. *
+*Les scripts déjà existants dans le projet ne doivent pas être modifiés.*
 
 1. Créer un bouton ou un toggle qui doit activer ou désactiver le highlight des vis. Pour ce faire, le bouton doit appeler une des fonctions du composant *ScrewHighlight*.
 2. Créer un slider qui permette de controller la vitesse du moteur. Pour ce faire, il faut transmettre la valeur du slider au composant *EnginePower* via la fonction *SetPower()*
