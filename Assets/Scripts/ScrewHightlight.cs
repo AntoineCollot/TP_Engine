@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEngine.Rendering.DebugUI;
 
 public class ScrewHightlight : MonoBehaviour
 {
@@ -12,7 +10,7 @@ public class ScrewHightlight : MonoBehaviour
 
     private void Start()
     {
-        //Initialise l'état highlighté
+        //Initialise l'Ã©tat highlightÃ©
         isHighlighted = mat.GetFloat("_Highlight")>0.5f;
     }
 
